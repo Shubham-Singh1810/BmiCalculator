@@ -59,7 +59,7 @@
         display: inline-block;
         font-weight: bold;
         animation: mover 6s linear infinite;
-        font-size: 40px;
+        font-size: 30px;
       
     }
     @keyframes mover{
