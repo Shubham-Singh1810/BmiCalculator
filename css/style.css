@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+/* navbar start */
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.brandheading{
+    color:orangered;
+    font-size: 30px;
+}
+.home{
+    color:white;
+    font-size: 30px; 
+}
+.developersid{
+    font-size: 30px; 
+    color:green;
+}
+.hambarger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 10px;
+    display: block;
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    margin: 3px 3px;
+}
+/* navbar end */
+
+/* section start */
+.container{
+    margin: 0px 200px;
+    
+}
+.heading{
+    font-size:40px;
+    margin-top: 15px;
+}
+
+/* animation start */
+span{
+    display: inline-block;
+    font-weight: bold;
+    animation: mover 6s linear infinite;
+    font-size: 50px;
+}
+@keyframes mover{
+    0%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+    }
+    50%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+        transform: translateY(30px);
+    }
+    100%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0.50);
+    }
+}
+span:nth-child(1){
+    animation-delay: 0s;
+    color: orangered;
+}
+span:nth-child(2){
+    animation-delay: 0.5s;
+    color: orangered;
+}
+span:nth-child(3){
+    animation-delay: 1s;
+    
+}
+span:nth-child(4){
+    animation-delay: 1.5s;
+    color: green;
+}
+span:nth-child(5){
+    animation-delay: 2s;
+    color: green;
+}
+span:nth-child(6){
+    animation-delay: 2.5s;
+    color: blue;
+}
+span:nth-child(7){
+    animation-delay: 3s;
+    color: orangered;
+}
+span:nth-child(8){
+    animation-delay: 3.5s;
+    color: orangered;
+}
+span:nth-child(9){
+    animation-delay: 4s;
+    
+}
+span:nth-child(10){
+    animation-delay: 4.5s;
+    color: green;
+}
+span:nth-child(11){
+    animation-delay: 5s;
+    color: green;
+}
+/* animation end */
+
+/* bmi calculator start */
+.inputbox{
+    margin: 30px 50px;
+    padding: 10px 30px;
+    border: 2px solid oldlace;
+    display: inline-block;
+    float:left;
+    border-radius: 10px;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+#height{
+   font-size: 20px;
+   margin-top: 20px;
+   border: 2px solid wheat;
+}
+#weight{
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid wheat
+}
+.calculate{
+    font-size: 20px;
+    margin-top: 20px;
+    border: 2px solid skyblue;
+    cursor: pointer;
+}
+/* bmi calculator end */
+
+/* INSTRUCTION START */
+.instractionsection{
+    display:block;
+    margin-top: 30px;
+    float:right;
+    border-left: 2px solid white;
+    padding: 0px 0px 10px 10px;
+    width: 30%;
+}
+.bmidefinationh1{
+    color: skyblue;
+}
+.bmiformula{
+    color: yellowgreen;
+}
+.warning{
+    color:orangered;
+}
+/* INSTRUCTION END */
+/* Bmi chart start */
+.bmichart{
+    display: inline-block;
+    float: left;
+    padding: 5px 6px;
+}
+.charttable{
+    border: solid 2px tan;
+    padding: 10px 10px;
+}
+
+    font-size: 40px;
+}
+#message{
+    font-size: 20px;
+    margin-top: 5px;
+}
+#message1{
+    font-size: 20px;
+    margin-top: 5px;
+    color: orange;
+}
+#message2{
+    font-size: 20px;
+    margin-top: 5px;
+    color: green;
+}
+#message3{
+    font-size: 20px;
+    margin-top: 5px;
+    color: tomato;
+}
+#message4{
+    font-size: 20px;
+    margin-top: 5px;
+    color: red;
+}
+.hambarger{
+    display: none;
+}
+/* Bmi chart end */
+/* section end*/

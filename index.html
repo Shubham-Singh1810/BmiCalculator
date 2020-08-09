@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar start  -->
+    <nav class="navbar">
+        <div class="brandname">
+            <h1 class="brandheading">BMI_Calculator</h1>
+        </div>
+        <div class="navlist">
+            <a class="home">H<em style="color: blue;">o</em>me</a>
+        </div>
+        <div class="developers">
+            <h1 class="developersid">Developer's id</h1>
+            <ul class="socialmedia vclass">
+                <a href="https://www.facebook.com/profile.php?id=100016748835401" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/shubhamsingh6569/?hl=en" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=7762042085/" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/Shubham-Singh1810" target="_blank"><i class="fab fa-github"></i></a>
+            </ul>
+        </div>
+        <div class="hambarger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <hr>
+    <hr>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- section start -->
+    <div class="container">
+        <div class="heading">Welcome to WhiteShark BMI Calculator</div>
+        <hr>
+        <hr>
+        <div class="animation">
+            <h1 class="gametext">
+                <span>W</span>
+                <span>h</span>
+                <span>i</span>
+                <span>t</span>
+                <span>e</span>
+                <span>.</span>
+                <span>S</span>
+                <span>h</span>
+                <span>a</span>
+                <span>r</span>
+                <span>k</span>
+            </h1>
+        </div>
+        <div class="inputbox">
+            <h1 class="bmiheading">BMI_Calculator</h1>
+            <hr>
+            <hr>
+            <div class="flex">
+                <input type="number" id="height" placeholder="Height in cm">
+                <input type="number" id="weight" placeholder="Weight in kilogram">
+                <div id="message"></div>
+                <div id="message1"></div>
+                <div id="message2"></div>
+                <div id="message3"></div>
+                <div id="message4"></div>
+                <button class="calculate" onclick="BMI()">Calculate</button>
+            </div>
+        </div>
+        <div class="message">
+            <!-- <h1 class="messageheading">Your Body mass index is 22.5</h1> -->
+            <!-- <h1 class="showcategory">Your BMI lies in normal category</h1> -->
+        </div>
+        <div class="instractionsection">
+            <h1 class="bmidefinationh1">What is BMI ?</h1>
+            <p class="bmidefination">Body mass index (BMI) is a value derived from the mass (weight) and height of a
+                person. The BMI is defined as the body mass divided by the square of the body height, and is universally
+                expressed in units of kg/m2, resulting from mass in kilograms and height in metres.</p><hr>
+            <h1 class="bmiformula">BMI_Formula</h1>
+            <p class="formula">The formula is BMI = kg/m2 where kg is a person’s weight in kilograms and m2 is their height in metres squared.<hr>
+           </p>    
+           <h1 class="warning">Who shouldn't use a BMI calculator</h1>
+           <p class="warningdefination">BMI is not used for muscle builders, long distance athletes, pregnant women, the elderly or young children.</p><hr>
+        </div>
+        <div class="bmichart">
+            <h1 class="chartheading">How is BMI interpreted for adults?</h1>
+            <div class="charttable">
+              <h2 class="h">BMI <em style="display: inline-block; float: right;">Weight_Status</em></h2><hr><hr>
+              <h2 class="h">Below 18.5 <em style="display: inline-block; float: right; color:orange;">Underweight</em></h2><hr>
+              <h2 class="h">19-24.9 <em style="display: inline-block; float: right;color: green;">Normal</em></h2><hr>
+              <h2 class="h">25.0-29.5 <em style="display: inline-block; float: right; color: tomato;">Overweight</em></h2><hr>
+              <h2 class="h">30.0 and Above <em style="display: inline-block; float: right; color: red;">Obese</em></h2>
+              
+            </div>
+        </div>
+    </div>
+    <!-- section end -->
+    <script src="javascript.js"></script>
+</body>
+
+</html> 

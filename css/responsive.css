@@ -1,0 +1,124 @@
+@media only screen and (max-width:1054px){
+    .container{
+        margin: 10px;
+    }
+    .inputbox{
+        margin:35px 10px;
+        
+    }
+    
+    
+    
+}
+@media only screen and (max-width:750px){
+    .instractionsection{
+        width: 100%;
+    }
+    .navbar{
+        justify-content:space-between ;
+        margin: 0px 10px;
+    }
+    .vclass{
+        opacity: 0;
+        
+    }
+}
+
+@media only screen and (max-width:650px){
+    .home{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .hambarger{
+        display: block;
+    }
+    .developersid{
+        font-size: 30px;
+        display: none;
+    }
+    .socialmedia{
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width:450px){
+    .heading{
+        font-size: 20px;
+    }
+    .brandheading{
+        font-size: 30px;
+    }
+    
+    .socialmedia{
+        margin-top: 40px;
+    }
+        
+    }
+    span{
+        display: inline-block;
+        font-weight: bold;
+        animation: mover 6s linear infinite;
+        font-size: 40px;
+      
+    }
+    @keyframes mover{
+        0%{
+            text-shadow:0 0 30px rgba(0, 0, 0, 0);
+        }
+        50%{
+            text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+            transform: translateY(20px);
+        }
+        100%{
+            text-shadow: 0 0 30px rgba(0, 0, 0, 0.50);
+        }
+    }
+    .gametext{
+        margin-left: 5px;
+    }
+    .inputbox{
+        margin: 20px 0px 0px 0px;
+        padding: 5px 15px;
+    }
+    .instractionsection{
+        margin-top: 27px;
+    }
+    #height{
+        font-size:20px;
+        margin-top: 5px;
+    }
+    #weight{
+        font-size:20px;
+        margin-top: 5px;
+    }
+    .calculate{
+        font-size:20px;
+        margin-top: 5px;    
+    }
+    .bmidefinationh1{
+        font-size: 20px;
+    }
+    .bmiformula{
+        font-size: 20px;
+    }
+    .warning{
+        font-size: 20px;
+    }
+    .chartheading{
+         font-size: 20px;
+    }
+    .h{
+        font-size:15px;
+    }
+    /* .hambarger{
+        display: block;
+    } */
+   
+}
+@media only screen and (max-width:350px){
+    span{
+        font-size: 30px;
+    }
+    
+}
